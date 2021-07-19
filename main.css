@@ -69,11 +69,15 @@ menu ul a:hover {
   text-decoration: underline;
 }
 menu img {
-  height: 1.3em;
+  height: 1.15em;
   filter: opacity(60%);
+  transition: 0.1s ease-in;
 }
 menu img.user {
   height: 2.5em;
+}
+menu img.menu:hover {
+  filter: opacity(1);
 }
 
 #content {
@@ -110,9 +114,9 @@ menu img.user {
   display: flex;
   flex-direction: row;
   align-items: center;
-  height: 4.5vh;
+  height: 2.5em;
   justify-content: flex-end;
-  width: 61vh;
+  width: 36em;
   border: 0.12em solid #ECECED;
   border-radius: 15vh;
   transition: box-shadow 0.3s;
